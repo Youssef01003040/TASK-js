@@ -1,0 +1,31 @@
+h1 {
+  font-size: 4rem;
+  font-family: Impact, sans-serif;
+  font-weight: 600;
+  margin-top: -30px;
+  padding-top: 10px;
+  position: relative;
+}
+p {
+  font-size: 35px;
+}
+button {
+  width: 250px;
+  height: 80px;
+  background-color: blue;
+  color: white;
+  padding: 1px 6px;
+}
+
+button:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+#New-quote {
+  cursor: default;
+}
+
+#New-quote:hover {
+  background-color: yellowgreen;
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quotes App</title>
+
+    <!-- ^ >>========> Font Awesome -->
+    <link rel="stylesheet" href="./assets/CSS/all.min.css" />
+
+    <!-- ^ >>========> Bootstrap -->
+    <link rel="stylesheet" href="./assets/CSS/bootstrap.min.css" />
+    <!-- ^ >>========> Main Stylesheet -->
+    <link rel="stylesheet" href="./assets/CSS/style.css" />
+  </head>
+  <body>
+    <div
+      class="container vh-100 d-flex justify-content-center align-items-center"
+    >
+      <div class="quote text-center">
+        <h1>Quote of the Day</h1>
+        <br>
+        <br>
+        <p class="pb-2">Press the button below to recieve a random quote!</p>
+        <button type="button" id="New-quote" onclick="showRandomQuote()">New Quote</button>
+        <p id="quote-text" class="pt-3">
+          "It's not what happens to you, but how you react to it that matters."
+        </p>
+        <p id="quote-author">--Epictetus</p>
+      </div>
+    </div>
+
+    <!-- ^ >>========> Bootstrap JS -->
+    <script src="./assets/js/bootstrap.bundle.min.js"></script>
+    <!-- ^ >>========> JS -->
+    <script src="./assets/js/quote.js"></script>
+  </body>
+</html>
